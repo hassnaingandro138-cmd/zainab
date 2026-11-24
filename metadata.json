@@ -1,0 +1,6 @@
+{
+  "name": "MUSTAFA – AI Chatbot",
+  "description": "A modern, professional, and fully functional AI chatbot powered by Google Gemini.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

@@ -1,0 +1,23 @@
+export interface Message {
+  id: string;
+  role: 'user' | 'assistant';
+  content: string;
+  timestamp: number;
+}
+
+export interface Conversation {
+  id: string;
+  title: string;
+  messages: Message[];
+  createdAt: number;
+  updatedAt: number;
+  model?: string;
+}
+
+export interface UserSettings {
+  model: string;
+  temperature: number;
+  systemInstruction: string;
+  theme: 'dark' | 'light';
+  soundEnabled: boolean;
+}
